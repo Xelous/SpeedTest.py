@@ -12,7 +12,7 @@ while True:
 	downloadSpeed = ""
 	uploadSpeed = ""
 
-	# Action thr process to test our speed
+	# Action the process to test our speed
 	# capturing it's output
 	result = subprocess.run(['speedtest-cli'], stdout=subprocess.PIPE)
 
